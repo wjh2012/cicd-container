@@ -17,7 +17,7 @@ services:
       - "$GITLAB_HOME/logs:/var/log/gitlab"
       - "$GITLAB_HOME/data:/var/opt/gitlab"
     shm_size:
-      - "256m"
+      - 256m
     networks:
       - gitlab-network
 
